@@ -5,6 +5,6 @@ int main() {
     float pi = 3.14;
     float r;
     float a = pi * r * r;
-    scanf("%d", &r); 
-    printf("%d", a);
+    scanf("%f", &r); 
+    printf("%f", a);
 }
