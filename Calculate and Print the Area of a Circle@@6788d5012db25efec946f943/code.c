@@ -2,9 +2,9 @@
 #include <math.h>
 
 int main() {
-    int pi = 3.14;
-    int r;
-    int a = pi * r * r;
+    float pi = 3.14;
+    float r;
+    float a = pi * r * r;
     scanf("%d", &r); 
     printf("%d", a);
 }
