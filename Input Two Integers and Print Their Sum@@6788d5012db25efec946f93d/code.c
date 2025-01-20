@@ -7,6 +7,6 @@ int main()
     int c = a+b;
     scanf("%i", &a);
     scanf("%i", &b);
-    print("%i", c);
+    printf("%i", c);
 
 }
