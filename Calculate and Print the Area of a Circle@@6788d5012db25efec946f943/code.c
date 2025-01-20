@@ -7,5 +7,5 @@ int main() {
     
     scanf("%lf", &r); 
     double a = pi * r * r;
-    printf("%lf", a);
+    printf("Area: %.2lf", a);
 }
