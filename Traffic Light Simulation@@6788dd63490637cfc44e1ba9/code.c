@@ -2,7 +2,7 @@
 
 int main() {
     char a,b;
-    scanf("%d",&a);
+    scanf("%c",&a);
 
     b = a.toUpper();
     if(b == 'R')
