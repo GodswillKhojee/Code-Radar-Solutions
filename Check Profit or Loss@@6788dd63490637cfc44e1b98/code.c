@@ -1,10 +1,11 @@
 #include <stdio.h>
-
+#include <math.h>
 int main() 
 {
-    int a,b;
+    int a,b,c;
     scanf("%d %d",&a, &b);
-    if(a-b < 0)
+    c = a - b;
+    if(c < 0)
     {
         printf("Loss");
     }    
