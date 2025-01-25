@@ -5,7 +5,7 @@ int main() {
     char a,b;
     scanf("%c",&a);
 
-    b = a.toUpper();
+    b = toUpper(a);
     if(b == 'R')
     {
         printf("Stop");
