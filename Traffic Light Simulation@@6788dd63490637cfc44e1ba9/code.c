@@ -2,19 +2,19 @@
 #include <ctype.h>
 
 int main() {
-    char a,b;
+    char a;
     scanf("%c",&a);
 
-    b = toUpper(a);
-    if(b == 'R')
+    a = toUpper(a);
+    if(a == 'R')
     {
         printf("Stop");
     }
-    else if(b == 'G')
+    else if(a == 'G')
     {
         printf("Go");
     }
-    else if (b == 'Y')
+    else if (a == 'Y')
     {
         printf("Slow Down");
     }
