@@ -25,8 +25,4 @@ int main() {
         n = a / b;
         printf("%d",n);
     }
-    else
-    {
-        printf("error");
-    }
 }
