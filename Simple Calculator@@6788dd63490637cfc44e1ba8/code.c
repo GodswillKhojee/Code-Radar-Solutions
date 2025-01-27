@@ -8,21 +8,22 @@ int main() {
     if(c == '+')
     {
         n = a + b;
-        printf("%d",n);
     }
     else if(c == '-')
     {
         n = a - b;
-        printf("%d",n);
     }
     else if(c == '*')
     {
         n = a * b;
-        printf("%d",n);
     }
     else if(c == '/')
     {
         n = a / b;
-        printf("%d",n);
     }
+    else
+    {
+        printf("error");
+    }
+    printf("%d",n);
 }
