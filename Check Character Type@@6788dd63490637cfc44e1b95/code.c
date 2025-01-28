@@ -1,21 +1,16 @@
 #include <stdio.h>
-
+#include <ctype.h>
 int main() {
     char a;
     scanf("%c",&a);
-    char v[7] =["a","e","i","o","u"];
-    char n[10] = [1,2,3,4,5,6,7,8,9,10];
-    if(a == v[i])
+
+    if(a == 'a', a=='e',a=='i',a=='o',a=='u')
     {
         printf("Vowel");
     }
-    else if(a != v[i])
+    else 
     {
         printf("Constant");
-    }
-    else if(a == n[i])
-    {
-        printf("Digit");
     }
 
 }
