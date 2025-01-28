@@ -14,7 +14,7 @@ int main() {
     }
     else if(a != 'a'||a != 'e'||a!='i'||a!='o'||a!='u')
     {
-        printf("Constant");
+        printf("Consonant");
     }
     else
     {
