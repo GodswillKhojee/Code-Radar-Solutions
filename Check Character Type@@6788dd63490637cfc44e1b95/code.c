@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
-int main() {
+int main()
+{
     char a;
     scanf("%c",&a);
 
@@ -12,11 +13,11 @@ int main() {
     {
         printf("Digit");
     }
-    else if(a != 'a'||a != 'e'||a!='i'||a!='o'||a!='u')
+    else if((a != 'a'||a != 'e'||a!='i'||a!='o'||a!='u')&&isalpha(a))
     {
         printf("Consonant");
     }
-    else if(!isalpha(a)&&!isdigit(a))
+    else
     {
         printf("Special Character");
     }
