@@ -16,7 +16,7 @@ int main() {
     {
         printf("Consonant");
     }
-    else
+    else if(!isalpha(a)&&!isdigit(a))
     {
         printf("Special Character");
     }
