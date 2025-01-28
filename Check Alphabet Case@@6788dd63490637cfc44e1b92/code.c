@@ -4,11 +4,11 @@ int main()
 {
     char a;
     scanf("%c",&a);
-    if (a == a.toUpper())
+    if (a == toUpper(a))
     {
         printf("Uppercase");
     }    
-    else if(a == a.toLower())
+    else if(a == toLower(a))
     {
         printf("Lowercase");
     }
