@@ -13,7 +13,7 @@ int main()
     {
         printf("Digit");
     }
-    else if((a != 'a'||a != 'e'||a!='i'||a!='o'||a!='u')&&isalpha(a))
+    else if(isalpha(a))
     {
         printf("Consonant");
     }
