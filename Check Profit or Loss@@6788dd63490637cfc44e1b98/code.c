@@ -5,9 +5,9 @@ int main()
     int a,b,c;
     scanf("%d %d",&a, &b);
     c = a - b;
-    if(c < 0)
+    if(c > 0)
     {
-        printf("Loss");
+        printf("Profit");
     }    
     else if(c == 0)
     {
@@ -15,6 +15,6 @@ int main()
     }
     else
     {
-        printf("Profit");
+        printf("Loss");
     }
 }
