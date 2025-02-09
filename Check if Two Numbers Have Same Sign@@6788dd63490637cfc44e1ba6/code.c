@@ -11,6 +11,6 @@ int main()
     }
     else
     {
-        printf("Differnet Sign");
+        printf("Different Sign");
     }
 }
