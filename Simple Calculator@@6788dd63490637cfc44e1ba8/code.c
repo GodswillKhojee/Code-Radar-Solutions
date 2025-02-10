@@ -9,7 +9,7 @@ int main() {
     {
         case '+':
             n = a + b;
-            printf("%d",&n)
+            printf("%d",&n);
             break;
             
         case '-':
@@ -30,7 +30,7 @@ int main() {
             else
             {
                 n = a / b;
-                printf("%d",&n)
+                printf("%d",&n);
             }
             break;
 
