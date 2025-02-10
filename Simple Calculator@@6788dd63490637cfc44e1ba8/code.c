@@ -11,4 +11,27 @@ int main() {
         n = a + b;
         printf("%d",n);
     }
+    else if(c == '-')
+    {
+        n = a - b;
+        printf("%d",n);
+    }
+    else if(c == '*')
+    {
+        n = a * b;
+        printf("%d",n);
+    }
+    else if(c == '/')
+    {
+        if( b == 0)
+        {
+            printf("error");
+        }
+        else
+        {
+            n = a / b;
+            printf("%d",n);
+        }
+        
+    }
 }
