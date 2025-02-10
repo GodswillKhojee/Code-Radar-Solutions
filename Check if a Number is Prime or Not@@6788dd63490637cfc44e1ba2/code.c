@@ -11,7 +11,7 @@ int main()
         flag = 1;
     }
     
-    for(int i = 2; i<= i/2; i++)
+    for(int i = 2; i<= i/2; ++i)
     {
         if(n % i == 0)
         {
