@@ -5,12 +5,12 @@ int main()
     int n;
     scanf("%d",&n);
 
-    if (n % 1 == 0 && n % n == 0)
+    if (!(n % 1 == 0 && n % n == 0))
     {
-        printf("Prime");
+        printf("Not Prime");
     }
     else
     {
-        printf("Not Prime");
+        printf("Prime");
     }
 }
