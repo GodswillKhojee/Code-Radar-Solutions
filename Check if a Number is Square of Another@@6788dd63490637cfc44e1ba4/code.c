@@ -11,6 +11,6 @@ int main()
     }
     else
     {
-        printf("No")
+        printf("No");
     }
 }
