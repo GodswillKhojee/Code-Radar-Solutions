@@ -7,7 +7,7 @@ int main()
 
     if (n % 1 == 0 && n % n == 0)
     {
-        printf("Pime");
+        printf("Prime");
     }
     else
     {
