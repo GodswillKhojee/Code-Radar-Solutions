@@ -14,12 +14,12 @@ int main() {
             
         case '-':
             n = a - b;
-            printf("%d",&n)
+            printf("%d",&n);
             break;
 
         case '*':
             n = a * b;
-            printf("%d",&n)
+            printf("%d",&n);
             break;
 
         case '/':
