@@ -8,6 +8,6 @@ int main() {
 
     if(c == '+')
     {
-        printf("%d %d",a,b,a+b);
+        printf(a+b);
     }
 }
