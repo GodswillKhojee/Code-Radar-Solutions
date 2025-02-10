@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n,temp;
+    int n,flag = 0;
     
     scanf("%d",&n);
 
