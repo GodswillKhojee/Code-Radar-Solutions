@@ -8,6 +8,7 @@ int main() {
 
     if(c == '+')
     {
-        printf(a+b);
+        n = a+b
+        printf("%d",n);
     }
 }
