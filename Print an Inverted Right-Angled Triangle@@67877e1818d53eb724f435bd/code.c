@@ -1,20 +1,21 @@
 #include <stdio.h>
 
-int main() 
+int main()
 {
-    int n;
-    scanf("%d",&n);
+    int n = 5;
+    // scanf("%d", &n);
 
-    while(n >0)
+    while (n > 0)
     {
-        for (int i = n; i <= n; i++)
+        for(int r = n; r <= n; r++)
         {
-            for (int j = 1; j <= i; j++)
+            for(int c = 1; c<=r; c++)
             {
                 printf("* ");
             }
             printf("\n");
+            n -= 1;  
         }
     }
-       
+   
 }
