@@ -2,30 +2,22 @@
 
 int main()
 {
-    #include <stdio.h>
+    int n;
+    scanf("%d", &n);
 
-    int main ()
+    for(int i = 1; i <= n; i++)
     {
-        int n = 5;
-        // scanf("%d", &n);
-
-        for(int r = 1; r <= n; r++)
+        for(int j = 1; j <= 2n-1; j++)
         {
-            for(int c = 1; c <= r; c++)
+            if(j >= n - (i-1) && j <= n +(i-1))
+            {
+                printf("*");
+            }
+            else
             {
                 printf(" ");
             }
-            printf("\n");
         }
-
-        for(int r = 1; r <= n; r++)
-        {
-            for(int c = 1; c <= r; c++)
-            {
-                printf("* ");
-            }
-            printf("\n");
-        }
+        printf("\n");
     }
-
 }
