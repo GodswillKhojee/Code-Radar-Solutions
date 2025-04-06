@@ -10,7 +10,7 @@ int main()
         for(int j = 1; j <= n; j++)
         {
             int c = 65;
-            printf("%d",c);
+            printf("%c",c);
             c++;
         }
         printf("\n");
